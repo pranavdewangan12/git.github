@@ -81,7 +81,7 @@ The payroll engine computes the salary components in the following sequence:
    $$\text{PF} = \text{Basic Salary} \times 0.12$$
 
 6. **Income Tax (Based on Gross Salary Slabs):**
-   $$\text{Tax} = \begin{cases} 0 & \text{if } \text{Gross Salary} \le 25000 \\ \text{Gross Salary} \times 0.05 & \text{if } 25000 < \text{Gross Salary} \le 50000 \\ \text{Gross Salary} \times 0.10 & \text{if } \text{Gross Salary} > 50000 \end{cases}$$
+   Tax = cases 0 & if Gross Salary  25000 Gross Salary 0.05 & if  25000 < Gross Salary 50000 Gross Salary times 0.10 & if Gross Salary > 50000 cases
 
 7. **Net Salary (Take-Home Pay):**
    $$\text{Net Salary} = \text{Gross Salary} - (\text{PF} + \text{Tax})$$
