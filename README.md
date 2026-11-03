@@ -66,7 +66,7 @@ Beyond the bare minimum requirements, this project includes several advanced fea
 The payroll engine computes the salary components in the following sequence:
 
 1. **House Rent Allowance (HRA):**
-   $$\text{HRA} = \text{Basic Salary} \times 0.20$$
+   HRA= Basic Salary times 0.20
 
 2. **Dearness Allowance (DA):**
    $$\text{DA} = \text{Basic Salary} \times 0.10$$
