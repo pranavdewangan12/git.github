@@ -52,10 +52,10 @@ Beyond the bare minimum requirements, this project includes several advanced fea
 1. **Object-Oriented Architecture (OOP):** Encapsulates data and behaviors cleanly into dedicated classes (`Colors`, `Employee`, `SalaryManagementSystem`).
 2. **Colored Terminal UI:** Uses native ANSI escape sequences to color-code headers, success messages, warnings, and errors for a modern CLI experience.
 3. **Designation-Based Bonus Logic:** Automatically awards a role-specific bonus based on the employee's designation:
-   * **Manager:** ₹$10,000$
-   * **SDE:** ₹$5,000$
-   * **Intern:** ₹$1,000$
-   * **Other:** ₹$0$ *(Used for standard baseline test cases)*
+   * **Manager:** ₹10,000
+   * **SDE:** ₹5,000
+   * **Intern:** ₹1,000
+   * **Other:** ₹0 *(Used for standard baseline test cases)*
 4. **In-Memory CRUD Operations:** Maintains a session history using Python lists, allowing users to **View** tabular audit reports, **Search** by Employee ID, **Filter** by minimum net salary, and **Delete** records dynamically.
 5. **Robust Error Handling:** Utilizes `try-except` blocks and input validation loops to prevent crashes from non-numeric inputs, empty strings, or negative salary values.
 
@@ -72,7 +72,7 @@ The payroll engine computes the salary components in the following sequence:
    $$\text{DA} = \text{Basic Salary} \times 0.10$$
 
 3. **Role Bonus:**
-   $$\text{Bonus} = \begin{cases} 10000 & \text{if Designation is Manager} \\ 5000 & \text{if Designation is SDE} \\ 1000 & \text{if Designation is Intern} \\ 0 & \text{if Designation is Other} \end{cases}$$
+   Bonus = cases 10000 & if Designation is Manager 5000 & if Designation is SDE 1000 & if Designation is Intern 0 & if Designation is Other cases
 
 4. **Gross Salary:**
    $$\text{Gross Salary} = \text{Basic Salary} + \text{HRA} + \text{DA} + \text{Bonus}$$
