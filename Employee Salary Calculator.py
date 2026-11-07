@@ -4,9 +4,9 @@
 ====================================================================
 Author / Developer : PRANAV DEWANGAN
 Course & Semester  : B.Tech Computer Science and Engineering (1st Semester)
-University         : Rungta University, Bhilai
-ERP ID             : [Enter your ERP ID here]
-Section            : [Enter your Section here]
+University         : Rungta International Skills University, Bhilai
+ERP ID             : RU-26-02469
+Section            : 1M
 
 ====================================================================
 Project Title: Advanced Employee Salary Management System
